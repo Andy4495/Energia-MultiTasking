@@ -2,7 +2,7 @@ void setupAnalog2() {
   Serial.begin(115200);
 }
 
-void loopAnalog() {
+void loopAnalog2() {
   // read the value from the sensor:
   sensorValue = analogRead(sensorPin);
   Serial.print("Value read by task 2: ");
