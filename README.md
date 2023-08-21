@@ -1,13 +1,11 @@
-# Energia-MultiTasking Examples Library
+# Energia-Educational BoosterPack MKII Examples Library
 
-[![Arduino Compile Sketches](https://github.com/Andy4495/Energia-MultiTasking/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/Energia-MultiTasking/actions/workflows/arduino-compile-sketches.yml)
-[![Check Markdown Links](https://github.com/Andy4495/Energia-MultiTasking/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/Energia-MultiTasking/actions/workflows/CheckMarkdownLinks.yml)
+[![Arduino Compile Sketches](https://github.com/Andy4495/Energia-EducationalBP_MKII/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/Energia-EducationalBP_MKII/actions/workflows/arduino-compile-sketches.yml)
+[![Check Markdown Links](https://github.com/Andy4495/Energia-EducationalBP_MKII/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/Energia-EducationalBP_MKII/actions/workflows/CheckMarkdownLinks.yml)
 
-This repo is packaged as an Arduino library in order to access the MultiTasking examples that are included as part of the [Energia application][1]. It is not actually a library, but includes an `examples` folder so that Arduino will load the files and display the examples.
+This repo is packaged as an Arduino library in order to access the EducationalBP_MKII examples that are included as part of the [Energia application][1]. It is not actually a library, but includes an `examples` folder so that Arduino will load the files and display the examples.
 
-Energia includes several example sketches to demonstrate the multi-tasking functionality included in later releases of Energia (referred to as "EnergiaMT"). This functionality is based on [TI-RTOS][2].
-
-Because these examples are included in the Energia application itself, they are not available when loading [Texas Instruments platform cores][5] into Arduino using the Boards Manager. I have therefore packaged them as a library so that they can be loaded into Arduino and be accessible through the `File->Examples->Energia-MultiTasking` menu.
+Because these examples are included in the Energia application itself, they are not available when loading [Texas Instruments platform cores][5] into Arduino using the Boards Manager. I have therefore packaged them as a library so that they can be loaded into Arduino and be accessible through the `File->Examples->Energia-EducationalBP_MKII` menu.
 
 ## Installation
 
@@ -15,11 +13,11 @@ Use the `Code -> Download ZIP` button in GitHub to download the library as a ZIP
 
 ## Usage
 
-The example sketches are available from the `File->Examples->Energia-MultiTasking` menu.
+The example sketches are available from the `File->Examples->Energia-EducationalBP_MKII` menu.
 
 ## Documentation
 
-The Energia website has an [overview][6] for using multi-tasking, and [tutorials][7] for several of the example sketches (scroll down to *8. MultiTasking*).
+The Energia website has an [overview][6] of the Educational BoosterPack, and tutorials for several of the example sketches.
 
 In case the Energia website goes offline, the overview and tutorial files are also available in the [`extras/docs`][8] directory in this repository. These files are also available in the [energia.nu][9] GitHub repo which contains the source files for the energia.nu website.
 
@@ -27,21 +25,21 @@ In case the Energia website goes offline, the overview and tutorial files are al
 
 Some of the files are copyright (c) Rei Vilo and licensed per [CC = BY SA NC][4].
 
+Other files specify that they are in the public domain.
+
 For the other files/directories that do not mention a specific license, it is assumed that they are licensed per the Energia [license.txt file][3], in which libraries and cores are covered by the [GNU LGPL v2.1][102].
 
 Please reference [`license.txt`][101] or the specific files for more details on the license.
 
 [1]: https://energia.nu
-[2]: https://www.ti.com/tool/TI-RTOS-MCU
 [3]: https://github.com/energia/Energia/blob/master/license.txt
 [4]: https://creativecommons.org/licenses/by-nc-sa/4.0/
 [5]: https://github.com/Andy4495/TI_Platform_Cores_For_Arduino
-[6]: https://energia.nu/guide/foundations/programming_technique/multitasking/
-[7]: https://energia.nu/guide/
+[6]: https://energia.nu/guide/tutorials/boosterpacks/tutorial_edumkii/
 [8]: ./extras/docs/
 [9]: https://github.com/energia/energia.nu
 [101]: ./license.txt
 [102]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
-[//]: # ([200]: https://github.com/Andy4495/Energia-MultiTasking)
+[//]: # ([200]: https://github.com/Andy4495/Energia-EducationalBP_MKII)
 
 [//]: # (This is a way to hack a comment in Markdown. This will not be displayed when rendered.)
