@@ -17,6 +17,12 @@ Use the `Code -> Download ZIP` button in GitHub to download the library as a ZIP
 
 The example sketches are available from the `File->Examples->Energia-MultiTasking` menu.
 
+## Documentation
+
+The Energia website has an [overview][6] for using multi-tasking, and [tutorials][7] for several of the example sketches (scroll down to *8. MultiTasking*).
+
+In case the Energia website goes offline, the overview and tutorial files are also available in the [`extras/docs`][8] directory in this repository. These files are also available in the [energia.nu][9] GitHub repo which contains the source files for the energia.nu website.
+
 ## License
 
 Some of the files are copyright (c) Rei Vilo and licensed per [CC = BY SA NC][4].
@@ -30,6 +36,10 @@ Please reference [`license.txt`][101] or the specific files for more details on 
 [3]: https://github.com/energia/Energia/blob/master/license.txt
 [4]: https://creativecommons.org/licenses/by-nc-sa/4.0/
 [5]: https://github.com/Andy4495/TI_Platform_Cores_For_Arduino
+[6]: https://energia.nu/guide/foundations/programming_technique/multitasking/
+[7]: https://energia.nu/guide/
+[8]: ./extras/docs/
+[9]: https://github.com/energia/energia.nu
 [101]: ./license.txt
 [102]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
 [//]: # ([200]: https://github.com/Andy4495/Energia-MultiTasking)
