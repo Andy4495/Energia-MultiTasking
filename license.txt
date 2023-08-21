@@ -2,12 +2,15 @@ Per the source code included in these sub-directories, the following
 sub-directories (and the files within them) are copyright (c) Rei Vilo 
 and licensed per CC = BY SA NC (https://creativecommons.org/licenses/by-nc-sa/4.0/):
 
-- LCD_Joystick
-- LCD_LifeGame
-- LCD_screen_Logos
-- LCD_screen_test
-
-Other files specify that they are in the public domain.
+- ClockLibrary
+- EventLibrary
+- MailboxLibrary
+- multiBlink_with_Clock
+- SemaphoreLibrary
+- SWILibrary
+- SWItriggerLibrary
+- TaskLibrary
+- TimerLibrary
 
 For files/directories that do not mention a specific license, it is 
 assumed that they are licensed per the Energia license.txt file
