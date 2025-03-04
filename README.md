@@ -41,7 +41,7 @@ Please reference [`license.txt`][101] or the specific files for more details on 
 [8]: ./extras/docs/
 [9]: https://github.com/energia/energia.nu
 [101]: ./license.txt
-[102]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
+[102]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
 [//]: # ([200]: https://github.com/Andy4495/Energia-MultiTasking)
 [//]: # ([10]: https://github.com/Andy4495/Energia-MultiTasking/releases)
 
